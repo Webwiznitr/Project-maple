@@ -1,14 +1,12 @@
-import "./App.css";
+import React from "react";
 import Navbaroverlay from "./Navbar-overlay";
 import Navbar from "./Navbar";
 
-function App() {
+function Layout2() {
   return (
-    <div className="App">
+    <div>
       <Navbaroverlay />
-      <Navbar className="Auth-navbar" />
+      <Navbar />
     </div>
   );
 }
-
-export default App;
