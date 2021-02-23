@@ -71,8 +71,9 @@ h1 {
   font-size: 101px;
   font-weight: bold;
   margin-top: 55px;
-  margin-left: 50%;
+  margin-left: 55%;
   left: 20px;
+
   /* margin-right: 50%; */
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
@@ -84,7 +85,7 @@ h1 {
   padding: 16px 20px 16px 21px;
   margin: 0;
   position: absolute;
-  top: 90%;
+  top: 120px;
   left: 50%;
   font-size: 20px;
   font-weight: 700;
@@ -163,6 +164,7 @@ h1 {
 }
 
 .Avatar img {
+  border-radius: 100px;
   height: 150px;
   width: 150px;
 }
@@ -174,9 +176,8 @@ h1 {
 }
 .Avatar {
   position: absolute;
-  left: 0px;
-  margin: 0;
-  top: 0;
+  left: -650px;
+  top: -100px;
 }
 
 #first-solid-bar {
@@ -211,13 +212,16 @@ h1 {
     margin-right: 100px;
     margin: 0;
     position: absolute;
-    left: -201px;
+    left: -150px;
     margin-top: 90px;
     margin-right: -50%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     transition: 0.09s ease-in-out;
+  }
+  #sections {
+    top: 40px;
   }
   #ask-section {
     font-family: "Montserrat", sans-serif;
@@ -229,7 +233,7 @@ h1 {
     margin-right: 100px;
     margin: 0;
     position: absolute;
-    left: 230px;
+    left: 180px;
     margin-top: 90px;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -247,7 +251,7 @@ h1 {
     margin-right: 100px;
     margin: 0;
     position: absolute;
-    left: 200px;
+    left: 160px;
     margin-top: 90px;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -265,7 +269,7 @@ h1 {
     margin-right: 100px;
     margin: 0;
     position: absolute;
-    left: 350px;
+    left: 320px;
     margin-top: 90px;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -278,13 +282,17 @@ h1 {
     /* margin-right: 100px;
     margin: 0; */
     position: absolute;
-    left: -330px;
-    top: 50px;
+    left: -270px;
+    top: 70px;
+    border-radius: 100px;
     /* margin-top: 0px; */
     /* margin-right: -50%; */
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     transition: 0.09s ease-in-out;
+  }
+  .Avatar img {
+    border-radius: 90px;
   }
 }

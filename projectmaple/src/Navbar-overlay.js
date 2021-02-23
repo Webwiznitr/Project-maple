@@ -4,7 +4,7 @@ function Navbaroverlay() {
   const [headerColor, setHeaderColor] = useState("white");
 
   const listenScrollEvent = () => {
-    window.scrollY > 10 ? setHeaderColor("inline") : setHeaderColor("none");
+    window.scrollY > 100 ? setHeaderColor("inline") : setHeaderColor("none");
   };
 
   useEffect(() => {
