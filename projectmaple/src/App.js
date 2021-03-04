@@ -8,9 +8,9 @@ import useToken from "./useToken";
 function App() {
   const { token, setToken } = useToken();
 
-  if (!token) {
-    return <Auth setToken={setToken} />;
-  }
+  // if (!token) {
+  //   return <Auth setToken={setToken} />;
+  // }
   return (
     <div className="App">
       <Navbaroverlay />
