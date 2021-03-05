@@ -504,7 +504,8 @@ input::-webkit-input-placeholder {
 }
 
 .contact {
-  padding: 700px 0px; 
+  padding: 0px 0px; 
+
 
 }
 
@@ -660,6 +661,9 @@ input::-webkit-input-placeholder {
 }
 .contactSection{
   background: rgba(0, 0, 0, 0.4);
+  margin-top: 1360px;
+
+
 }
 
 .address{
