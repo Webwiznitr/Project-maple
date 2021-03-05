@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <Navbaroverlay />
       <Navbar className="Auth-navbar" />
-      <Contact />
+      {/* <Contact /> */}
     </div>
   );
 }
