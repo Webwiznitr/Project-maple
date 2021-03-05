@@ -5,6 +5,7 @@ import Navbar from "./Navbar";
 import Auth from "./Auth";
 import useToken from "./useToken";
 import Loader from "./Loader";
+import Contact from "./Contact";
 
 function App() {
   //const { token, setToken } = useToken();
@@ -28,7 +29,9 @@ function App() {
         <Fragment>
           <Navbaroverlay />
           <Navbar className="Auth-navbar" />
+          <Contact/>
         </Fragment>
+      
       )}
     </div>
   );
