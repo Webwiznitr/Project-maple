@@ -502,3 +502,178 @@ input::-webkit-input-placeholder {
     text-shadow: 1px 6px 6px black, 0 0 1em black, 0 0 0.2em black;
   }
 }
+
+.contact {
+  padding: 700px 0px; 
+
+}
+
+
+
+
+.contactSection-heading {
+
+ 
+} 
+
+#contactSectionHead {
+ 
+  color: var(--fcolor);
+  font-size: 80px;
+  font-weight: bold;
+  margin-top: 56px;
+  margin-left: 36%;
+  left: 20px;
+  text-align: justigy;
+  text-shadow: #000;
+  text-shadow: 1px 2px 2px black, 0 0 1em black, 0 0 0.2em black;
+  line-height: 1.2;
+  /* margin-right: 50%;  */
+  /* transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+ } */}
+ 
+.contactSection p {
+ 
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 30px;
+  color: antiquewhite;
+  margin-left: 32%;
+  margin-top: -50px;
+  font-size: 13px;
+  width: 490px;
+  text-align: center ;
+} 
+
+.contactCircles {
+  /* width: 100%; */
+  display: flex;
+  margin-left: 36%;
+  list-style: none;
+}
+
+.contactCircles li {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: #02040f;
+  margin: 0 10px;
+  transition: all 0.5s linear;
+  cursor: pointer;
+}
+.contactCircles li:hover {
+  background: #ff4a57;
+}
+
+.justifyConter {
+  justify-content: center;
+}
+
+
+#companyAddress .title {
+  margin-bottom: 4rem;
+  color: var(--fcolor);
+  font-size: 45px;
+  font-weight: bold;
+  margin-top: 55px;
+  margin-left: 32.5%;
+
+}
+
+@media only screen and (max-width:480px) {
+  #companyAddress .title {
+      width: 95%;
+      margin-left: auto;
+      margin-right: auto
+  }
+}
+
+#companyAddress .companyRow {
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  margin-bottom: 4em
+}
+
+@media only screen and (max-width:480px) {
+  #companyAddress .companyRow {
+      margin-bottom: 1rem
+  }
+}
+
+ .companyIcon {
+  
+  width: 130.11px;
+  height: 130.65px;
+  opacity: 1;
+  margin-bottom: 3%;
+  margin-left: 38%;
+  background-image: url("./assets/companyAddress.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#companyAddress .companyRow .address {
+  margin-left: 2em;
+  color: rgba(54, 26, 26, 0.6);
+  font-size: 0px;
+  font-weight: 700;
+  text-align: left;
+}
+
+@media only screen and (max-width:480px) {
+  #companyAddress .comapnyRow .address {
+      margin-left: auto;
+      margin-right: auto;
+      -webkit-box-flex: 0 0 100%;
+      -moz-box-flex: 0 0 100%;
+      -webkit-flex: 0 0 100%;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%
+  }
+}
+
+.section{
+  padding-bottom: .5px;
+}
+
+
+
+@media only screen and (max-width:480px) {
+  #companyAddress .companyRow .address p {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 14em
+  }
+}
+.contactSection{
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.address{
+  margin-top: -170px
+}
+.address p {
+  color: #fff;
+  margin-bottom:13px;
+  color: antiquewhite;
+  margin-left: 31%; 
+  padding-left: 250px; 
+  margin-top: -50px; 
+  font-size: 20px;
+  text-align: justify;
+  
+  
+}
