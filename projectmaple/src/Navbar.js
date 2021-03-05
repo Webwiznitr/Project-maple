@@ -4,6 +4,7 @@ import Auth from "./Auth";
 import Home from "./Home";
 import App from "./App";
 import "./App.css";
+import Contact from "./Contact";
 function Navbar() {
   return (
     <Router>
@@ -25,6 +26,8 @@ function Navbar() {
           <a href="" id="contact-section">
             CONTACT
           </a>
+
+          
           <a href="" id="other-section">
             OTHER
           </a>

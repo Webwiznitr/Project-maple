@@ -4,9 +4,10 @@ import Navbaroverlay from "./Navbar-overlay";
 import Navbar from "./Navbar";
 import Auth from "./Auth";
 import useToken from "./useToken";
+import Contact from "./Contact";
 
 function App() {
-  const { token, setToken } = useToken();
+  // const { token, setToken } = useToken();
 
   // if (!token) {
   //   return <Auth setToken={setToken} />;
@@ -15,6 +16,7 @@ function App() {
     <div className="App">
       <Navbaroverlay />
       <Navbar className="Auth-navbar" />
+      <Contact />
     </div>
   );
 }
