@@ -4,7 +4,7 @@ import Navbaroverlay from "./Navbar-overlay";
 import Navbar from "./Navbar";
 import Auth from "./Auth";
 import useToken from "./useToken";
-import Contact from "./Contact";
+// import Contact from "./Contact";
 
 function App() {
   // const { token, setToken } = useToken();
